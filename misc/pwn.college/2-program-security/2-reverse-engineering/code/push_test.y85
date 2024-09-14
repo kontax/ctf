@@ -1,0 +1,10 @@
+IMM a = 0x1
+IMM c = 0x4
+IMM b = 0x80
+SYS read_mem d
+IMM b = 0x80
+IMM c = 0x4
+IMM a = 0x1
+SYS write d
+IMM a = 0x0
+SYS exit NONE

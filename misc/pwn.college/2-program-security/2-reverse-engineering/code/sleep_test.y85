@@ -1,0 +1,3 @@
+IMM d = 0x0a
+SYS sleep d
+SYS exit d

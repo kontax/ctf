@@ -1,0 +1,2 @@
+IMM a = 0x0a
+SYS exit d

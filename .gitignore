@@ -1,7 +1,5 @@
-# Ignore the venv directory in the root
 venv/
-
-# Ignore all files within the "binaries" subdirectory
 **/binaries/
 **/output/
 **/__pycache__/
+*.i64

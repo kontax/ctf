@@ -13,5 +13,5 @@ if [ "$#" -ne 0 ]; then
 fi
 
 # Copy files
-echo "Copying .py files to pwn.college server"
-scp -i ~/.ssh/pwn.college *.py hacker@pwn.college:~/3-program-security/3-memory-errors/
+echo "Copying asm files to pwn.college server"
+scp -i ~/.ssh/pwn.college *.s hacker@pwn.college:~/3-program-security/1-shellcode-injection/

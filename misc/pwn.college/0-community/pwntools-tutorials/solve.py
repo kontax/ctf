@@ -5,6 +5,7 @@ from pwnlib.elf.corefile import CorefileFinder
 
 pwn.context.log_level = 'error'
 pwn.context.terminal = ['kitty']
+pwn.context.rename_corefiles = False
 
 class Level:
     def __init__(self, hostname):

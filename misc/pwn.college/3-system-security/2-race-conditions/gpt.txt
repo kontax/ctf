@@ -1,0 +1,11 @@
+Write a program in c that does the following:
+
+1. If they already exist, remove the directories or files "aaa", "bbb", "ccc" and "maze" including their contents
+2. Create a directory named "aaa" that contains the file "race", which has the text "TEST" in it
+3. Create a symlink that points to "/" named "bbb"
+4. Create a directory named "ccc" that contains a symlink to "/flag" named "race"
+5. Create a directory named "maze"
+6. On a loop, do the following:
+    a. use renameat2 to swap "aaa" with "maze"
+    b. use renameat2 to swap "bbb" with "maze"
+    c. use renameat2 to swap "ccc" with "maze"
